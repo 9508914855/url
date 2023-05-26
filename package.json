@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "A simple URL shortener web app.",
   "scripts": {
-    "build": "echo \"No build specified\" && exit 1",
-    "test": "echo \"No test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "echo \"No build step specified\" && exit 1",
+    "test": "echo \"No test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://9508914855.github.io/url.git"
+    "url": "git+https://github.com/9508914855/url.git"
   },
   "author": "Shashi Kumar",
   "license": "MIT",
