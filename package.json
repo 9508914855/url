@@ -1,20 +1,20 @@
 {
   "name": "url-shortener",
   "version": "1.0.0",
-  "description": "A simple URL shortener web app.",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "echo \"No build step specified\" && exit 1",
-    "test": "echo \"No test specified\" && exit 1"
+    "devStart": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/9508914855/url.git"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1",
+    "shortid": "^2.2.15"
   },
-  "author": "Shashi Kumar",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://9508914855.github.io/url/issues"
-  },
-  "homepage": "https://9508914855.github.io/url/#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
